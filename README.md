@@ -1,3 +1,3 @@
 # microservices
 
-Show case of spring-boot-cloud-book
+Show case of microservices-book
