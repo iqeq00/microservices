@@ -1,2 +1,16 @@
 server:
   port: 9090
+
+spring:
+  application:
+    name: lichee
+#  mandatory-file-encoding: UTF-8
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+
+config:
+  lichee:
+    name: 里奇
+    age: 30
