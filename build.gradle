@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.1.5.RELEASE'
+	id 'org.springframework.boot' version '2.1.4.RELEASE'
 	id 'java'
 }
 
@@ -18,5 +18,6 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-loader'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
