@@ -8,6 +8,7 @@ public class MicroservicesApplication {
 
     public static void main(String[] args) {
 
+        System.out.println(MicroservicesApplication.class.getClassLoader());
         SpringApplication.run(MicroservicesApplication.class, args);
     }
 
